@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: "Poiret One", Helvetica, Verdana, Arial, sans-serif;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+.page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center {
+    margin-top: calc(-1ex);
+    line-height: 20vh;
+    font-size: 20vh;
+    color: lightgrey;
+}
