@@ -25,5 +25,13 @@ body {
     margin-top: calc(-1ex);
     line-height: 20vh;
     font-size: 20vh;
+}
+
+.pew-pew {
     color: lightgrey;
+    transition: color 0.20s;
+}
+
+.flash-pew-pew {
+    color: crimson;
 }
