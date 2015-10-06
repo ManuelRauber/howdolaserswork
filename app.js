@@ -33,8 +33,8 @@
 
     document.addEventListener('DOMContentLoaded', function () {
         var htmlAudioElement = document.getElementById('pewpewSound');
-        var pewpew1 = document.getElementById('pewpew-1');
-        var pewpew2 = document.getElementById('pewpew-2');
+        var pewpew1 = document.getElementById('pew-pew-1');
+        var pewpew2 = document.getElementById('pew-pew-2');
 
         htmlAudioElement.addEventListener('ended', function () {
             playRandomPewPewSounds(htmlAudioElement, pewpew1, pewpew2);

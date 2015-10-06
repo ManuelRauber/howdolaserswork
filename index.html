@@ -8,12 +8,22 @@
 </head>
 <body>
 
-<div class="page">
-    <div class="center">
-        <span id="pewpew-1" class="pew-pew">pew</span>
-        <span id="pewpew-2" class="pew-pew">pew</span>
+<main class="center">
+    <span id="pew-pew-1" class="pew-pew">pew</span>
+    <span id="pew-pew-2" class="pew-pew">pew</span>
+</main>
+<footer class="footer">
+    <div class="left">
+        Made with <span class="love">♥</span> by <a href="https://twitter.com/ManuelRauber" target="_blank">@manuelrauber</a>
     </div>
-</div>
+    <div class="right"><a href="https://twitter.com/share" class="twitter-share-button"
+                          data-url="http://howdolaserswork.com"
+                          data-text="You want to know how lasers really work? Check this out!" data-via="ManuelRauber"
+                          data-hashtags="howdolaserswork">Tweet</a>
+
+        <div class="fb-share-button" data-href="http://howdolaserswork.com" data-layout="button_count"></div>
+    </div>
+</footer>
 
 <audio volume="1" preload="auto" id="pewpewSound">
     <source src="pew.mp3" type="audio/mp3">
@@ -37,6 +47,24 @@
     ga('create', 'UA-34194897-5', 'auto');
     ga('send', 'pageview');
 
+    !function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+        if (!d.getElementById(id)) {
+            js = d.createElement(s);
+            js.id = id;
+            js.src = p + '://platform.twitter.com/widgets.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }
+    }(document, 'script', 'twitter-wjs');
+
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
 </script>
 </body>
 </html>
