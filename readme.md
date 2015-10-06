@@ -2,7 +2,7 @@
 
 This is just a fun website, which can be visited here: http://howdolaserswork.com
 
-It uses HTML5 Web Audio API to play the nice pew pew sound!
+It uses [HTML5 Audio Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLAudioElement) to play the nice pew pew sound!
 
 # Credits
 
