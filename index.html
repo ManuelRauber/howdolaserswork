@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=500, initial-scale=1, user-scalable=no">
-    <link rel="stylesheet" href="app.css"/>
+    <link rel="stylesheet" href="fonts/octicons.css"/>
+    <link rel="stylesheet" href="css/app.css"/>
+    <link rel="icon" href="favicon.ico"/>
     <title>How Do Lasers Work?</title>
 </head>
 <body>
@@ -14,7 +16,8 @@
 </main>
 <footer class="footer">
     <div class="left">
-        Made with <span class="love">♥</span> by <a href="https://twitter.com/ManuelRauber" target="_blank">@manuelrauber</a>
+        Made with <span class="love octicon octicon-heart"></span> by <a href="https://twitter.com/ManuelRauber" target="_blank">@manuelrauber</a>
+        (<a class="github" href="s"><span class="octicon octicon-mark-github"></span></a>)
     </div>
     <div class="right"><a href="https://twitter.com/share" class="twitter-share-button"
                           data-url="http://howdolaserswork.com"
@@ -26,11 +29,11 @@
 </footer>
 
 <audio volume="1" preload="auto" id="pewpewSound">
-    <source src="pew.mp3" type="audio/mp3">
-    <source src="pew.wav" type="audio/wav">
+    <source src="sounds/pew.mp3" type="audio/mp3">
+    <source src="sounds/pew.wav" type="audio/wav">
 </audio>
 
-<script src="app.js" type="application/javascript" async></script>
+<script src="js/app.js" type="application/javascript" async></script>
 <script>
     (function (i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
