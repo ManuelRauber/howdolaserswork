@@ -1,6 +1,7 @@
 !function () {
     'use strict';
 
+    // From: http://stackoverflow.com/a/11381730/959687
     function isMobileOrTablet() {
         var check = false;
         (function (a) {
